@@ -394,7 +394,7 @@ useEffect(() => {
     let cancelled = false;
 
     axios
-        .get('/data/12_vehicle_filter_od.csv')
+        .get(process.env.PUBLIC_URL + '/data/12_vehicle_filter_od.csv')
         .then(async response => {
 
             const odData =
