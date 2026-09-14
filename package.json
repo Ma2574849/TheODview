@@ -1,0 +1,66 @@
+{
+    "name": "theodview",
+    "homepage": "https://Ma2574849.github.io/TheODview",
+    "version": "0.3.0",
+    "private": true,
+    "dependencies": {
+        "@flowmap.gl/core": "^7.3.4",
+        "@flowmap.gl/data": "8.0.0-alpha.24",
+        "@flowmap.gl/layers": "8.0.0-alpha.24",
+        "ahooks": "^3.1.9",
+        "ajv": "^8.18.0",
+        "antd": "^4.18.4",
+        "axios": "^0.24.0",
+        "babel-plugin-import": "^1.13.3",
+        "csvtojson": "^2.0.10",
+        "customize-cra": "^1.0.0",
+        "deck.gl": "^8.6.6",
+        "mapbox-gl": "^2.6.1",
+        "nanoid": "^3.2.0",
+        "pubsub-js": "^1.9.4",
+        "react": "^17.0.2",
+        "react-app-rewired": "^2.1.11",
+        "react-dom": "^17.0.2",
+        "react-map-gl": "5.2.11",
+        "react-scripts": "5.0.1",
+        "redux": "^4.1.2",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-react-hook": "^4.0.3",
+        "redux-thunk": "^2.4.1"
+    },
+    "scripts": {
+        "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-app-rewired start",
+        "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-app-rewired build",
+        "test": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-app-rewired test",
+        "eject": "react-app-rewired eject",
+        "deploy": "gh-pages -d build"
+    },
+    "resolutions": {
+        "mini-css-extract-plugin": "2.4.5"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all",
+            "not chrome < 51",
+            "not safari < 10"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "gh-pages": "^6.1.0",
+        "mini-css-extract-plugin": "2.4.5"
+    }
+}

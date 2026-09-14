@@ -1,0 +1,13 @@
+.deck-tooltip {
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(20, 20, 20, 0.85) !important;
+    backdrop-filter: blur(4px);
+    padding: 8px 12px !important;
+    color: #fff !important;
+    pointer-events: none;
+    line-height: 1.6;
+    max-width: 240px;
+    white-space: pre-line;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}

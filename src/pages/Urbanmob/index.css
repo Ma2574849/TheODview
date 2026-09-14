@@ -1,0 +1,246 @@
+.smallworldailogo {
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    width: 200px;
+    z-index: 1;
+}
+
+.panel {
+    max-height: 94vh;
+    z-index: 1;
+    margin: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.playinfo {
+    background-color: #fff;
+    position: absolute;
+    align-self: center;
+    width: 50vw;
+    height: 50px;
+    left: 0vh;
+    top: 0vh;
+    transform: translate(-58%, -50%);
+    z-index: 1;
+}
+
+.playinfocont {
+    position: absolute;
+    align-self: center;
+    width: 0px;
+    height: 0px;
+    left: 76vw;
+    top: 88vh;
+    z-index: 0;
+    visibility: hidden;
+}
+
+#deckgl-wrapper {
+    overflow: hidden;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.mobile-header {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    display: flex;
+    gap: 8px;
+}
+
+.mobile-menu-btn,
+.mobile-help-btn {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================================================
+   暗色主题
+   当 .odview-dark 类存在时，覆盖 antd 和面板的默认颜色
+   ============================================================ */
+.odview-dark .panel,
+.odview-dark .ant-layout,
+.odview-dark .ant-layout-sider {
+    background: #141414;
+}
+
+.odview-dark .ant-card {
+    background: #1f1f1f;
+    border-color: #303030;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-card-head {
+    background: #1f1f1f;
+    border-color: #303030;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-collapse {
+    background: #1f1f1f;
+    border-color: #303030;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-collapse-header {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.odview-dark .ant-collapse-content {
+    background: #141414;
+    border-color: #303030;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-form-item-label > label {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.odview-dark .ant-select-selector {
+    background: #1f1f1f !important;
+    border-color: #434343 !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.odview-dark .ant-select-arrow {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.odview-dark .ant-slider-rail {
+    background: #434343;
+}
+
+.odview-dark .ant-divider {
+    border-color: #303030;
+}
+
+.odview-dark .ant-upload.ant-upload-drag {
+    background: #1f1f1f;
+    border-color: #434343;
+}
+
+.odview-dark .ant-upload.ant-upload-drag p.ant-upload-text {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-upload.ant-upload-drag p.ant-upload-hint {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.odview-dark .ant-btn-default {
+    background: #1f1f1f;
+    border-color: #434343;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-btn-default:hover {
+    border-color: #177ddc;
+    color: #177ddc;
+}
+
+.odview-dark .site-page-header {
+    background: #1f1f1f;
+}
+
+.odview-dark .ant-page-header-heading-title,
+.odview-dark .ant-page-header-heading-sub-title {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.odview-dark .ant-btn-text {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.odview-dark h4.ant-typography {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-switch {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.odview-dark .ant-switch-checked {
+    background: #177ddc;
+}
+
+.odview-dark .ant-table {
+    background: #1f1f1f;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-table-thead > tr > th {
+    background: #272727;
+    color: rgba(255, 255, 255, 0.85);
+    border-color: #303030;
+}
+
+.odview-dark .ant-table-tbody > tr > td {
+    border-color: #303030;
+}
+
+.odview-dark .ant-table-tbody > tr:hover > td {
+    background: #2a2a2a;
+}
+
+/* Modal 暗色 */
+.odview-dark .ant-modal-content {
+    background: #1f1f1f;
+}
+
+.odview-dark .ant-modal-header {
+    background: #1f1f1f;
+    border-color: #303030;
+}
+
+.odview-dark .ant-modal-title {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-modal-body {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-modal-footer {
+    border-color: #303030;
+}
+
+.odview-dark .ant-typography {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-modal-close-x {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+/* Drawer 暗色 */
+.odview-dark .ant-drawer-header {
+    background: #1f1f1f;
+    border-color: #303030;
+}
+
+.odview-dark .ant-drawer-title {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.odview-dark .ant-drawer-body {
+    background: #141414;
+}
+
+/* 响应式 */
+@media screen and (max-width: 1200px) {
+    .panel { margin: 6px; }
+}
+
+@media screen and (max-width: 768px) {
+    .panel { display: none; }
+    .smallworldailogo { width: 120px; right: 6px; bottom: 12px; }
+    .playinfo { width: 80vw; }
+}

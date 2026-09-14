@@ -1,0 +1,22 @@
+.urbanmoblogo {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    width: 60px;
+    z-index: 1;
+}
+
+/* P3: 移动端 Header 紧凑 */
+@media screen and (max-width: 768px) {
+    .site-page-header {
+        padding: 8px 12px;
+    }
+
+    .site-page-header .ant-page-header-heading-title {
+        font-size: 14px;
+    }
+
+    .site-page-header .ant-page-header-heading-sub-title {
+        display: none;
+    }
+}
