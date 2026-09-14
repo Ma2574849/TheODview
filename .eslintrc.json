@@ -1,0 +1,10 @@
+{
+    "extends": ["react-app"],
+    "rules": {
+        "eqeqeq": ["warn", "smart"],
+        "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+        "no-console": ["warn", { "allow": ["warn", "error"] }],
+        "prefer-const": "warn",
+        "no-var": "warn"
+    }
+}

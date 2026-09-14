@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TheODview/static/css/main.0d1d9f9a.css",
+    "main.js": "/TheODview/static/js/main.715c4da6.js",
+    "index.html": "/TheODview/index.html",
+    "main.0d1d9f9a.css.map": "/TheODview/static/css/main.0d1d9f9a.css.map",
+    "main.715c4da6.js.map": "/TheODview/static/js/main.715c4da6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d1d9f9a.css",
+    "static/js/main.715c4da6.js"
+  ]
+}
